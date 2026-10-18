@@ -88,6 +88,8 @@
 
 ## Файлы с данными
 
+- [Открыть расчётную книгу Excel](Фаза_1_Экспертное_оценивание_TOPSIS_оформленный.xlsx)
+- [Скачать Excel с формулами](https://raw.githubusercontent.com/Redin666/project_management/main/phases/phase-01-concept-selection/topsis/%D0%A4%D0%B0%D0%B7%D0%B0_1_%D0%AD%D0%BA%D1%81%D0%BF%D0%B5%D1%80%D1%82%D0%BD%D0%BE%D0%B5_%D0%BE%D1%86%D0%B5%D0%BD%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_TOPSIS_%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9.xlsx)
 - [Результаты TOPSIS в CSV](topsis-results.csv)
 - [Индивидуальные экспертные оценки](../expert-assessment/expert-ratings.csv)
 
