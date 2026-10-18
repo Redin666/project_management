@@ -1,0 +1,26 @@
+name: Cleanup issue 6 branch after merge
+
+on:
+  pull_request:
+    types: [closed]
+
+permissions:
+  contents: write
+
+jobs:
+  delete-issue-6-branch:
+    if: >-
+      github.event.pull_request.merged == true &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      github.event.pull_request.head.ref == 'docs/issue-6-collective-ahp'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete this merged feature branch only
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.git.deleteRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: 'heads/docs/issue-6-collective-ahp'
+            });
