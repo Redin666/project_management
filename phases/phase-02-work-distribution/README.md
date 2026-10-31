@@ -28,6 +28,14 @@
 | **P2-04** | [#23](https://github.com/Redin666/project_management/issues/23) | Сформулировать и обосновать задачу распределения | **Павел Шатков** (@Papla2016) | Никита — C, Владислав — C |
 | **P2-05** | [#24](https://github.com/Redin666/project_management/issues/24) | Решить задачу распределения подходящим инструментом и зафиксировать результат | **Никита Редин** (@Redin666) | Павел — C, Владислав — C |
 
+### Каталоги задач
+
+- [P2-01 — Декомпозиция Фазы 3](decomposition/README.md)
+- [P2-02 — Экспертная оценка трудоёмкости](effort-estimation/README.md)
+- [P2-03 — Индивидуальные предпочтения](preferences/README.md)
+- [P2-04 — Постановка задачи распределения](optimization-formulation/README.md)
+- [P2-05 — Решение задачи распределения](optimization-solution/README.md)
+
 ## Декомпозиция Фазы 3
 
 Работы Фазы 3 уже разбиты на восемь рабочих пакетов и организационно распределены между участниками:
@@ -43,11 +51,11 @@
 | P3-07 | Оценка команды, компетенций и срока | Павел Шатков |
 | P3-08 | Анализ сокращения функциональности и итоговые выводы | Владислав Полищук |
 
-Подробная декомпозиция: [phase-03-task-decomposition.md](phase-03-task-decomposition.md).
+Подробная декомпозиция: [decomposition](decomposition/README.md).
 
 ## Экспертная оценка трудоёмкости
 
-Шаблон: [effort-estimation-template.md](effort-estimation-template.md).
+Шаблон: [effort-estimation](effort-estimation/README.md).
 
 Порядок работы:
 
@@ -71,7 +79,7 @@
 
 ## Оптимизационная модель
 
-Черновая постановка: [optimization-model.md](optimization-model.md).
+Черновая постановка: [optimization-formulation](optimization-formulation/README.md).
 
 Модель должна учитывать:
 
