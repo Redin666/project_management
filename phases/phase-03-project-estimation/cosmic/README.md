@@ -65,3 +65,8 @@ GitHub Issue #28 — P3-02.
 ## Расчётная книга Excel
 
 `P3-02_COSMIC.xlsx`
+
+
+## Excel
+
+- [Расчётная книга Excel](P3-02_COSMIC.xlsx)
