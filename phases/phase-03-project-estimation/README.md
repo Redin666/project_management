@@ -25,6 +25,17 @@
 | **P3-07** | [#33](https://github.com/Redin666/project_management/issues/33) | Оценить размер команды, компетенции и ориентировочный срок | **Павел Шатков** (@Papla2016) | Никита — C, Владислав — C |
 | **P3-08** | [#34](https://github.com/Redin666/project_management/issues/34) | Определить функции-кандидаты на исключение и оформить итоговые выводы | **Владислав Полищук** (@VladPolishuk) | Никита — C, Павел — C |
 
+### Каталоги задач
+
+- [P3-01 — Use Cases](use-cases/README.md)
+- [P3-02 — COSMIC Function Points](cosmic/README.md)
+- [P3-03 — Use Case Points](ucp/README.md)
+- [P3-04 — Коллективная экспертная оценка](expert-estimation/README.md)
+- [P3-05 — Агрегирование экспертных оценок](expert-aggregation/README.md)
+- [P3-06 — Сравнение методов](comparison/README.md)
+- [P3-07 — Команда, компетенции и срок](team-estimation/README.md)
+- [P3-08 — Сокращение функциональности](scope-reduction/README.md)
+
 ## Порядок выполнения
 
 1. **P3-01** формирует основу всей дальнейшей оценки.
@@ -113,7 +124,7 @@ COSMIC, UCP и коллективная экспертная оценка сво
 
 - [Use Cases](use-cases/README.md)
 - [COSMIC Function Points](cosmic/README.md)
-- [Подготовка коллективной экспертной оценки](expert-estimation/README.md)
+- [Коллективная экспертная оценка](expert-estimation/README.md)
 
 ## Результаты Фазы 3
 
