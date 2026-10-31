@@ -115,8 +115,8 @@
 | Требование Фазы 2 | Issue | Статус |
 |---|---|---|
 | Разбить работу Фазы 3 на задачи | [#20](https://github.com/Redin666/project_management/issues/20) | ✅ Выполнено |
-| Экспертно оценить сложность / трудозатраты | [#21](https://github.com/Redin666/project_management/issues/21) | 🟡 В работе |
-| Получить индивидуальные предпочтения от каждого | [#22](https://github.com/Redin666/project_management/issues/22) | 🟡 В работе |
+| Экспертно оценить сложность / трудозатраты | [#21](https://github.com/Redin666/project_management/issues/21) | ✅ Выполнено |
+| Получить индивидуальные предпочтения от каждого | [#22](https://github.com/Redin666/project_management/issues/22) | ✅ Выполнено |
 | Сформулировать и обосновать задачу распределения: цель и ограничения | [#23](https://github.com/Redin666/project_management/issues/23) | 🟡 В работе |
 | Решить задачу подходящим инструментом и получить распределение | [#24](https://github.com/Redin666/project_management/issues/24) | 🟡 В работе |
 
