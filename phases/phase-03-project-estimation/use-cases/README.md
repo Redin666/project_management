@@ -63,3 +63,8 @@
 ## Расчётная книга Excel
 
 `P3-01_Use_Cases.xlsx`
+
+
+## Excel
+
+- [Книга Excel с Use Cases и сценариями](P3-01_Use_Cases.xlsx)
