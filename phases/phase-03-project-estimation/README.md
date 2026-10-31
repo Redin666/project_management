@@ -103,7 +103,7 @@ COSMIC, UCP и коллективная экспертная оценка сво
 | P3-01 | Use Cases и границы проекта | Никита Редин | ✅ Завершено — 12 Use Cases |
 | P3-02 | COSMIC Function Points | Никита Редин | ✅ Завершено — 53 CFP |
 | P3-03 | Use Case Points | Павел Шатков | 🟡 В работе |
-| P3-04 | Коллективная экспертная оценка | Никита Редин + команда | 🟡 Шаблон готов, нужны оценки всех троих |
+| P3-04 | Коллективная экспертная оценка | Никита Редин + команда | ✅ Завершено — 68 чел.-ч |
 | P3-05 | Агрегация экспертных оценок | Павел Шатков | ⚪ Ожидает P3-04 |
 | P3-06 | Сравнение методов | Владислав Полищук | ⚪ Ожидает P3-02, P3-03, P3-05 |
 | P3-07 | Команда, компетенции и срок | Павел Шатков | ⚪ Ожидает P3-06 |
@@ -142,7 +142,7 @@ COSMIC, UCP и коллективная экспертная оценка сво
 | Набросать не менее 10 Use Cases | [#27](https://github.com/Redin666/project_management/issues/27) ✅ |
 | Оценить проект в COSMIC Function Points | [#28](https://github.com/Redin666/project_management/issues/28) ✅ |
 | Оценить проект в Use Case Points и получить трудозатраты | [#29](https://github.com/Redin666/project_management/issues/29) |
-| Коллективно оценить трудозатраты Use Cases / Stories / Slices | [#30](https://github.com/Redin666/project_management/issues/30) |
+| Коллективно оценить трудозатраты Use Cases / Stories / Slices | [#30](https://github.com/Redin666/project_management/issues/30) ✅ |
 | Агрегировать экспертные оценки на весь проект | [#31](https://github.com/Redin666/project_management/issues/31) |
 | Сопоставить различные оценки масштаба проекта | [#32](https://github.com/Redin666/project_management/issues/32) |
 | Оценить размер команды, специальные компетенции и срок | [#33](https://github.com/Redin666/project_management/issues/33) |
