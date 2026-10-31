@@ -114,3 +114,19 @@ COSMIC, UCP и коллективная экспертная оценка сво
 ## Баланс основной работы по Фазам 2–3
 
 Если считать только задачи, где участник отвечает за конечный результат, суммарное распределение по двум связанным фазам составляет **5 основных задач на каждого участника**.
+
+
+## Соответствие заданию
+
+| Требование Фазы 3 | Issue |
+|---|---|
+| Набросать не менее 10 Use Cases | [#27](https://github.com/Redin666/project_management/issues/27) |
+| Оценить проект в COSMIC Function Points | [#28](https://github.com/Redin666/project_management/issues/28) |
+| Оценить проект в Use Case Points и получить трудозатраты | [#29](https://github.com/Redin666/project_management/issues/29) |
+| Коллективно оценить трудозатраты Use Cases / Stories / Slices | [#30](https://github.com/Redin666/project_management/issues/30) |
+| Агрегировать экспертные оценки на весь проект | [#31](https://github.com/Redin666/project_management/issues/31) |
+| Сопоставить различные оценки масштаба проекта | [#32](https://github.com/Redin666/project_management/issues/32) |
+| Оценить размер команды, специальные компетенции и срок | [#33](https://github.com/Redin666/project_management/issues/33) |
+| Определить менее важные, но ресурсоёмкие функции-кандидаты на исключение | [#34](https://github.com/Redin666/project_management/issues/34) |
+
+Все обязательные пункты Фазы 3 представлены отдельными задачами. Требование учитывать альтернативные и негативные сценарии включено в P3-01.
