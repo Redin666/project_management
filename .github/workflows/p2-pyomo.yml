@@ -1,0 +1,31 @@
+# Validates the committed P2-05 Pyomo solution
+name: P2 Pyomo optimization check
+
+on:
+  push:
+    paths:
+      - "phases/phase-02-work-distribution/optimization-formulation/**"
+      - "phases/phase-02-work-distribution/optimization-solution/**"
+      - ".github/workflows/p2-pyomo.yml"
+  workflow_dispatch:
+
+jobs:
+  solve:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Pyomo and HiGHS
+        run: pip install -r phases/phase-02-work-distribution/optimization-solution/requirements.txt
+
+      - name: Solve allocation model
+        run: python phases/phase-02-work-distribution/optimization-solution/solve_distribution.py
+
+      - name: Verify committed solution is reproducible
+        run: git diff --exit-code -- phases/phase-02-work-distribution/optimization-solution/solution.csv

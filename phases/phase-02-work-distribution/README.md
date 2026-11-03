@@ -79,7 +79,7 @@
 
 ## Оптимизационная модель
 
-Черновая постановка: [optimization-formulation](optimization-formulation/README.md).
+Формальная постановка: [optimization-formulation](optimization-formulation/README.md) ([входные параметры](optimization-formulation/model-input.csv)).
 
 Модель должна учитывать:
 
@@ -125,8 +125,8 @@
 | Разбить работу Фазы 3 на задачи | [#20](https://github.com/Redin666/project_management/issues/20) | ✅ Выполнено |
 | Экспертно оценить сложность / трудозатраты | [#21](https://github.com/Redin666/project_management/issues/21) | ✅ Выполнено |
 | Получить индивидуальные предпочтения от каждого | [#22](https://github.com/Redin666/project_management/issues/22) | ✅ Выполнено |
-| Сформулировать и обосновать задачу распределения: цель и ограничения | [#23](https://github.com/Redin666/project_management/issues/23) | 🟡 В работе |
-| Решить задачу подходящим инструментом и получить распределение | [#24](https://github.com/Redin666/project_management/issues/24) | 🟡 В работе |
+| Сформулировать и обосновать задачу распределения: цель и ограничения | [#23](https://github.com/Redin666/project_management/issues/23) | ✅ Выполнено |
+| Решить задачу подходящим инструментом и получить распределение | [#24](https://github.com/Redin666/project_management/issues/24) | ✅ Выполнено |
 
 Дополнительные служебные задачи #25 и #26 закрыты: их содержание включено в обязательные работы и организационные материалы проекта.
 
@@ -134,7 +134,7 @@
 
 Требование **«решить задачу, воспользовавшись подходящим инструментом»** реализовано отдельной оптимизационной моделью.
 
-**Инструмент:** Python + SciPy `milp` с решателем HiGHS.
+**Инструмент:** Python + **Pyomo** с решателем **HiGHS**.
 
 Материалы:
 

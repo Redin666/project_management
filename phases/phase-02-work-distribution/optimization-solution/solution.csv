@@ -1,9 +1,9 @@
 task,assignee,effort_hours,preference
-P3-01,Redin666,2.0,5
-P3-02,Redin666,2.0,5
-P3-03,Papla2016,2.5,5
-P3-04,Redin666,1.5,5
-P3-05,Papla2016,1.0,5
-P3-06,VladPolishuk,2.5,5
-P3-07,Papla2016,1.0,5
-P3-08,VladPolishuk,2.0,5
+P3-01,Redin666,2.0,5.0
+P3-02,Redin666,2.0,5.0
+P3-03,Papla2016,2.5,5.0
+P3-04,Redin666,1.5,5.0
+P3-05,Papla2016,1.0,5.0
+P3-06,VladPolishuk,2.5,5.0
+P3-07,Papla2016,1.0,5.0
+P3-08,VladPolishuk,2.0,5.0

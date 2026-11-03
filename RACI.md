@@ -44,7 +44,7 @@
 
 ### Инструмент решения P2-05
 
-Для P2-05 используется **Python + SciPy MILP (HiGHS)**.
+Для P2-05 используется **Python + Pyomo + HiGHS**.
 
 Реализация:
 `phases/phase-02-work-distribution/optimization-solution/solve_distribution.py`
