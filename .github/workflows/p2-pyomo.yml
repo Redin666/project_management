@@ -1,3 +1,4 @@
+# Validates the committed P2-05 Pyomo solution
 name: P2 Pyomo optimization check
 
 on:
