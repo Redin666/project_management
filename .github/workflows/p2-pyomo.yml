@@ -24,8 +24,25 @@ jobs:
       - name: Install Pyomo and HiGHS
         run: pip install -r phases/phase-02-work-distribution/optimization-solution/requirements.txt
 
+      - name: Save committed solution
+        run: cp phases/phase-02-work-distribution/optimization-solution/solution.csv /tmp/expected-solution.csv
+
       - name: Solve allocation model
         run: python phases/phase-02-work-distribution/optimization-solution/solve_distribution.py
 
       - name: Verify committed solution is reproducible
-        run: git diff --exit-code -- phases/phase-02-work-distribution/optimization-solution/solution.csv
+        run: |
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+
+          expected = Path("/tmp/expected-solution.csv")
+          actual = Path("phases/phase-02-work-distribution/optimization-solution/solution.csv")
+
+          def rows(path):
+              with path.open(encoding="utf-8-sig", newline="") as f:
+                  return list(csv.DictReader(f))
+
+          assert rows(expected) == rows(actual), "Pyomo result differs from committed solution"
+          print("Committed solution matches Pyomo result.")
+          PY
