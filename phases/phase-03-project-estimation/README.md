@@ -115,7 +115,7 @@ COSMIC, UCP и коллективная экспертная оценка сво
 | P3-02 | COSMIC Function Points | Никита Редин | ✅ Завершено — 53 CFP |
 | P3-03 | Use Case Points | Павел Шатков | 🟡 В работе |
 | P3-04 | Коллективная экспертная оценка | Никита Редин + команда | ✅ Завершено — 68 чел.-ч |
-| P3-05 | Агрегация экспертных оценок | Павел Шатков | ⚪ Ожидает P3-04 |
+| P3-05 | Агрегация экспертных оценок | Павел Шатков | ✅ Завершено - 68 чел.-ч |
 | P3-06 | Сравнение методов | Владислав Полищук | ⚪ Ожидает P3-02, P3-03, P3-05 |
 | P3-07 | Команда, компетенции и срок | Павел Шатков | ⚪ Ожидает P3-06 |
 | P3-08 | Сокращение функциональности и выводы | Владислав Полищук | ⚪ Ожидает P3-06, P3-07 |
@@ -125,6 +125,7 @@ COSMIC, UCP и коллективная экспертная оценка сво
 - [Use Cases](use-cases/README.md)
 - [COSMIC Function Points](cosmic/README.md)
 - [Коллективная экспертная оценка](expert-estimation/README.md)
+- [Агрегированная экспертная оценка (68 чел.-ч)](expert-aggregation/README.md)
 
 ## Результаты Фазы 3
 
@@ -154,7 +155,7 @@ COSMIC, UCP и коллективная экспертная оценка сво
 | Оценить проект в COSMIC Function Points | [#28](https://github.com/Redin666/project_management/issues/28) ✅ |
 | Оценить проект в Use Case Points и получить трудозатраты | [#29](https://github.com/Redin666/project_management/issues/29) |
 | Коллективно оценить трудозатраты Use Cases / Stories / Slices | [#30](https://github.com/Redin666/project_management/issues/30) ✅ |
-| Агрегировать экспертные оценки на весь проект | [#31](https://github.com/Redin666/project_management/issues/31) |
+| Агрегировать экспертные оценки на весь проект | [#31](https://github.com/Redin666/project_management/issues/31) ✅ |
 | Сопоставить различные оценки масштаба проекта | [#32](https://github.com/Redin666/project_management/issues/32) |
 | Оценить размер команды, специальные компетенции и срок | [#33](https://github.com/Redin666/project_management/issues/33) |
 | Определить менее важные, но ресурсоёмкие функции-кандидаты на исключение | [#34](https://github.com/Redin666/project_management/issues/34) |
