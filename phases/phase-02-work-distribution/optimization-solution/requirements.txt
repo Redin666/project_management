@@ -1,2 +1,2 @@
-scipy>=1.11,<2
-numpy>=1.24,<3
+pyomo>=6.9,<7
+highspy>=1.8,<2
