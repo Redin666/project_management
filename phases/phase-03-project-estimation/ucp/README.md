@@ -135,10 +135,10 @@ Effort = 100.901 × 20 = 2018.02 person-hours
 
 ## Расчётные файлы
 
-- [Расчётная книга Excel](P3-03_UCP.xlsx) — формулы и изменяемые коэффициенты;
+- [Генератор расчётной книги Excel](generate_workbook.py) — формирует `P3-03_UCP.xlsx` из приведённых CSV (только стандартная библиотека Python, с формулами);
 - [Акторы](actors.csv);
 - [Классификация Use Cases](use-cases.csv);
 - [Технические факторы](technical-factors.csv);
 - [Факторы окружения](environmental-factors.csv).
 
-Источник сценариев: P3-01 (Issue #27). Задача: [P3-03 (Issue #29)](https://github.com/Redin666/project_management/issues/29).
+Чтобы получить Excel-книгу, выполните в этом каталоге `python3 generate_workbook.py`. Генератор сохраняет `P3-03_UCP.xlsx` с вкладками Summary, Actors, Use Cases, Technical и Environment. Сам XLSX не включён в коммит; исходные данные и генератор версионируются.\n\nИсточник сценариев: P3-01 (Issue #27). Задача: [P3-03 (Issue #29)](https://github.com/Redin666/project_management/issues/29).
