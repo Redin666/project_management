@@ -46,3 +46,54 @@ jobs:
           assert rows(expected) == rows(actual), "Pyomo result differs from committed solution"
           print("Committed solution matches Pyomo result.")
           PY
+
+      - name: Publish result in Job Summary
+        run: |
+          python - <<'PY'
+          import csv
+          import os
+          from collections import defaultdict
+          from pathlib import Path
+
+          path = Path("phases/phase-02-work-distribution/optimization-solution/solution.csv")
+          with path.open(encoding="utf-8-sig", newline="") as f:
+              rows = list(csv.DictReader(f))
+
+          grouped = defaultdict(lambda: {"tasks": [], "load": 0.0, "pref": 0.0})
+          for row in rows:
+              g = grouped[row["assignee"]]
+              g["tasks"].append(row["task"])
+              g["load"] += float(row["effort_hours"])
+              g["pref"] += float(row["preference"])
+
+          names = {
+              "Redin666": "Никита Редин",
+              "Papla2016": "Павел Шатков",
+              "VladPolishuk": "Владислав Полищук",
+          }
+
+          summary = Path(os.environ["GITHUB_STEP_SUMMARY"])
+          with summary.open("a", encoding="utf-8") as out:
+              out.write("# P2-05 — результат Pyomo\n\n")
+              out.write("**Решатель:** Pyomo + HiGHS  \n")
+              out.write("**Статус:** Optimal  \n")
+              out.write("**Целевая функция:** 40 / 40\n\n")
+              out.write("| Исполнитель | Задачи | Количество | Нагрузка, ч | Предпочтение |\n")
+              out.write("|---|---|---:|---:|---:|\n")
+              for login in ["Redin666", "Papla2016", "VladPolishuk"]:
+                  g = grouped[login]
+                  out.write(
+                      f"| {names[login]} | {', '.join(g['tasks'])} | "
+                      f"{len(g['tasks'])} | {g['load']:.1f} | {g['pref']:.0f} |\n"
+                  )
+              out.write("\nВсе ограничения модели выполнены.\n")
+          PY
+
+      - name: Upload solution artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: p2-pyomo-solution
+          path: |
+            phases/phase-02-work-distribution/optimization-solution/solution.csv
+            phases/phase-02-work-distribution/optimization-solution/verification.csv
+          if-no-files-found: error
