@@ -111,6 +111,7 @@ def solve():
         writer = csv.DictWriter(
             f,
             fieldnames=["task", "assignee", "effort_hours", "preference"],
+            lineterminator="\n",
         )
         writer.writeheader()
         writer.writerows(rows)
