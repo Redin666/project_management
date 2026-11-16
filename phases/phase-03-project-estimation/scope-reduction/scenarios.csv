@@ -1,0 +1,4 @@
+scenario,excluded,use_cases,cfp,cfp_reduction_pct,uaw,uucw,ucp,ucp_effort_hours,ucp_effort_reduction_pct,expert_hours,expert_reduction_pct
+Базовый MVP,,12,53,0.0,12,95,100.901,2018.02,0.0,68,0.0
+"A — исключить UC-09, UC-10, UC-11",UC-09;UC-10;UC-11,9,40,24.5,9,75,79.212,1584.24,21.5,52,23.5
+B — A + исключить UC-06,UC-06;UC-09;UC-10;UC-11,8,35,34.0,9,70,74.497,1489.94,26.2,49,27.9
