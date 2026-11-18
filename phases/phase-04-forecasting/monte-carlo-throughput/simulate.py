@@ -31,7 +31,7 @@ def percentile(p):
     return durations[math.ceil(p * len(durations)) - 1]
 
 print("iterations =", ITERATIONS)
-print("median =", statistics.median(durations))
 print("mean =", round(statistics.mean(durations), 3))
+print("median =", statistics.median(durations))
 print("P80 =", percentile(0.80))
 print("P90 =", percentile(0.90))
