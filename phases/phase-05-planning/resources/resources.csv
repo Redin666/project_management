@@ -1,0 +1,4 @@
+resource_type,capacity,nominal_hours_per_day,nominal_hours_per_week
+backend,2,16,80
+frontend,1,8,40
+qa_devops,1,8,40
